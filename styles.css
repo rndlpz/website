@@ -85,14 +85,13 @@ a:visited{
   color: #C0A8F0;
 }
 
-.maintitle{
+.maintitle,
+.mainprojtitle,
+.projtitle,
+.projdescription{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin:8px;
 }
 
-.projdescription{
-  display: inline-grid;
-  margin:5px;
-}
